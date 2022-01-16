@@ -1,0 +1,6 @@
+/* Day - 30-----Bootstrap 5, Part- 3 - Details about Bootstrap Layout, grid & column. */
+
+.row > div{
+    border: 1px solid #ddd;
+    background-color: #fafafa;
+}

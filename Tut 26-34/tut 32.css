@@ -1,0 +1,293 @@
+/* Day--31-----Creating full website using Bootstrap v5 with details explain. */
+
+body, h1, h2, h3, h4, h5, h6{
+    font-family: 'Work Sans', sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* Header Section */
+.jon-heade .navbar-brandr{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.jon-header span{
+    display: inline-block;
+    background-color: #6278df;
+    color: whitesmoke;
+    height: 45px;
+    width: 40px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 30px;
+    position: relative;
+    top: 3px;
+}
+
+.jon-menu .nav-link{
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+
+/* Slider Section */
+.slider-section{
+    background: url('../img/sk10.jpg') no-repeat center center/cover;
+    padding: 200px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.slider-section::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+.slider-caption h4{
+    margin-bottom: 35px;
+}
+
+.slider-caption h2{
+    margin-bottom: 50px;
+    font-size: 47px
+}
+
+.slider-caption .btn{
+    background: #60b333;
+    padding: 8px 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.slider-caption .btn:hover{
+    background-color: rgb(255, 105, 5);
+    transition: .5s;
+}
+
+.slider-caption .form-control{
+    padding: 15px 15px;
+}
+
+/* Number Counter */
+.counter-number-item .h2{
+    font-size: 60px;
+}
+
+.counter-number-item .text-muted{
+    font-size: 26px;
+}
+
+/* About Section */
+.about-section{
+    background-color: #f7f9ff;
+}
+
+.about-text-left{
+    margin-top: 120px;
+}
+
+.about-text-left .lead{
+    font-size: 24px;
+    line-height: 2.7rem;
+}
+
+/* Feature Section */
+.feature-item{
+    height: 300px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.2);
+}
+
+.left-img-sec{
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+
+.left-img-sec img{
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    left: -80px;
+}
+
+.left-test-sec{
+    width: 60%;
+    padding: 25px;
+}
+
+/* Portfolio Section */
+.portfolio-item a{
+    position: relative;
+    display: block;
+}
+
+.portfolio-item a::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(245, 157, 240, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+
+.portfolio-item:hover a::after{
+    opacity: 1;
+    visibility: visible;
+}
+
+.min-section-bg{
+    background-color: #f7f9ff;
+}
+
+/* Pricing Section */
+
+.col h1{
+    font-size: 3rem;
+}
+
+.col p{
+    font-size: 1.6rem
+}
+
+.pricing-item{
+    background-color: #fff;
+    padding: 50px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(67, 87, 191, 0.2);
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.pricing-item h1{
+    font-size: 2.5rem;
+}
+
+.pricing-item h5{
+    font-size: 1.5rem;
+}
+
+.pricing-item ul{
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 45px;
+}
+
+.pricing-item ul li{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    color: #777;
+}
+
+.pricing-item ul li span{
+    color: #657be0;
+    font-size: 1.8rem;
+    font-weight: bold;
+    width: 45px;
+    display: inline-block;
+}
+
+
+.pricing-item-button a{
+    border-color: #657be0;
+    border-width: 2px;
+    color: #657be0;
+    padding: 12px 27px;
+    font-size: 22px;
+    transition: .5s;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(67, 87, 191, 0.2);
+}
+
+
+/* Testimonial Section */
+.author-info{
+    width: 220px;
+    margin: auto;
+}
+
+.author-info img{
+    width: 95px;
+    margin-right: 20px;
+}
+
+.user-details{
+    text-align: left;
+    position: relative;
+    top: 5px;
+}
+
+.testimonial-item span{
+    font-size: 5rem;
+    color: rgb(189, 186, 186);
+}
+
+/* About Section */
+.about-item{
+    margin-top: 90px;
+}
+
+.about-item .card img{
+    width: 130px;
+    height: auto;
+    margin-top: -70px;
+    margin-left: 15px;
+}
+
+
+.cord-body .card-title{
+    font-size: 2.2rem;
+}
+
+.cord-body .card-subtitle{
+    font-size: 1.5rem;
+}
+
+.cord-body .card-text{
+    font-size: 1.2rem;
+}
+
+.cord-body .btn{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+/* Contact Section */
+.contact-form-div .card{
+    box-shadow: 2.5px 4.33px 30px 0 rgba(67, 87, 191, 0.2);
+    padding: 45px;
+}
+
+/* Footer-2 Section */
+.default-btn{
+    color: #fff;
+    padding: 14px 18px;
+    background-color: rgb(26, 226, 0);
+    display: inline-block;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: 700;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 15px;
+    transition: .4s;
+    margin-top: 10px;
+}
+
+.default-btn:hover{
+    background-color: #ff8800;
+    color: white;
+}

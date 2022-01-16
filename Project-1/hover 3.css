@@ -1,0 +1,27 @@
+body{
+    background-color: #353535;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+
+.container{
+    color: #fff;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: linear-gradient(to right, #ffc107, #03a9f4, #e91e63);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: text 2.5s linear infinite;
+}
+
+@keyframes text{
+    to{
+        background-position: 200% center;
+    }
+}

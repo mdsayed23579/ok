@@ -1,0 +1,142 @@
+/* Creating full website with Bootstrap. */
+
+html{
+    scroll-behavior: smooth;
+}
+
+.header{
+    background-color: rgb(190, 93, 255);
+}
+
+.header-logo img{
+    width: 155px;
+}
+
+.primary-menu ul{
+    margin-bottom: 0;
+    text-align: right;
+}
+
+.primary-menu ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+
+.primary-menu ul li a{
+    color: white;
+    display: block;
+    font-size: 24px;
+    padding: 0 13px;
+    line-height: 57px;
+    border-right: 1px solid #ddd;
+    text-decoration: none;
+}
+
+.primary-menu ul li a:hover{
+    background-color: rgb(247, 91, 91);
+}
+
+.banner{
+    background: url('../img/slider.jpg') no-repeat center center/cover;
+    padding: 270px 0;
+    background-attachment: fixed;
+}
+
+.banner-text h1{
+    background-color: rgba(47, 89, 228, 0.822);
+    color: rgb(255, 252, 251);
+    max-width: 500px;
+    margin: auto;
+    padding: 10px 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+    font-size: 40px;
+}
+
+.banner-text h2{
+    color: white;
+    font-size: 40px;
+    display: inline-block;
+    background-color: rgba(47, 89, 228, 0.822);
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 17px;
+}
+
+.about{
+    background-color: #e6e8e9;
+}
+
+.about h2{
+    font-size: 45px;
+}
+
+.about p{
+    font-size: 23px;
+}
+
+.service{
+    background-color: #fcf7f7;
+}
+
+.card{
+    background-color: rgb(253, 230, 230);
+    padding: 25px 10px;
+    border-radius: 23px;
+}
+
+.card span{
+    display: block;
+    height: 100px;
+    width: 100px;
+    background-color: rgba(252, 23, 99, 0.863);
+    color: white;
+    margin: auto;
+    font-size: 55px;
+    line-height: 100px;
+    border-radius: 20px 0 20px 0;
+}
+
+.card h2{
+    font-size: 35px;
+}
+
+.card p{
+    font-size: 20px;
+}
+
+.product img{
+    max-width: 100%;
+}
+
+.product p{
+    font-size: 18.5px;
+}
+
+.product-right ul{
+    list-style: none;
+    padding-left: 0;
+}
+.product-right ul li{
+    background-color: rgb(236, 234, 234);
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.footer{
+    background-color: rgb(68, 63, 63);
+    font-size: 23px;
+}
+
+.footer p{
+    margin-bottom: 0;
+}
+
+.footer a{
+    color: white;
+    margin-left: 15px;
+    display: inline-block;
+}
+

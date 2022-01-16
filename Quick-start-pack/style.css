@@ -1,0 +1,13 @@
+.top-header figure img{
+    height: 150px;
+    width: 150px;
+}
+
+.top-header nav ul li{
+    display: inline-block;
+}
+
+.top-header nav ul li a{
+    font-size: 20px;
+    text-decoration: none;
+}

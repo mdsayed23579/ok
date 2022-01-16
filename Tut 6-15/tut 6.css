@@ -1,0 +1,36 @@
+/* CSS Part-1 Simple Design */
+
+h1{
+    color: salmon;
+    background-color: skyblue;
+    font-size: 80px;
+    text-align: center;
+}
+
+.fast-heading{
+    color: rgb(255, 187, 0);
+    background-color: wheat;
+    font-size: 100px;
+    text-align: center;
+}
+
+h3{
+    color: violet;
+    background-color: teal;
+    font-size: 70px;
+    text-align: center;
+}
+
+p{
+    color: rgb(255, 9, 194);
+    background-color: rgb(159, 192, 93);
+    font-size: 60px;
+    text-align: center;
+}
+
+div{
+    color: orange;
+    background-color: rgb(236, 167, 245);
+    font-size: 50px;
+    text-align: center;
+}

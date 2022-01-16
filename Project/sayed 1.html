@@ -1,0 +1,71 @@
+<!-- Creat Full website -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodPanda</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="sayed 1.css">
+
+</head>
+<body>
+    
+    <div class="hero">
+        <div class="nav-bar">
+            <div class="nav-logo">
+                <img src="../img/gym-logo.png" alt="">
+            </div>
+            <div class="nav-links" id="nav-links">
+                <i class="fas fa-times" onclick="closeMenu()"></i>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">RECIPE</a></li>
+                </ul>
+                <button class="btn" type="button">SIGN UP</button>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </div>
+        <div class="banner-title">
+            <h1>Food <span> Doesn't have <br> a religion.</span> It is a religion</h1>
+            <button class="btn" type="button">EXPLORE</button>
+        </div>
+        <div class="vertical-bar">
+            <div class="search-icon">
+                <i class="fa fa-th-list"></i>
+                <i class="fa fa-search"></i>
+            </div>
+            <div class="social-icons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-linkedin"></i>
+                <i class="fab fa-instagram-square"></i>
+                <i class="fab fa-pinterest"></i>
+            </div>
+        </div>
+        <div class="notifications">
+            <div class="contents">
+                <small>First order on food catrin and first delivery now</small>
+                <p><a href="">PREV</a><a href="">NEXT</a></p>
+            </div>
+            <div class="notification-img">
+                <img src="../img/03.jpg" alt="">
+            </div>
+        </div>
+    </div>
+           
+    <script>
+        var show = document.getElementById("nav-links");
+        function showMenu(){
+            show.style.right = "0";
+        }
+
+        function closeMenu(){
+            show.style.right = "200px";
+        }
+    </script>
+</body>
+</html>

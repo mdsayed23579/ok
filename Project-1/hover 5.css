@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #131415;
+}
+
+.container{
+    min-height: 100px;
+    max-width: 1800px;
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box{
+    min-height: 750px;
+    width: calc(100%/3 - 90px);
+    color: white;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid #232427;
+    padding: 40px;
+    box-shadow: 15px 15px 10px 5px rgb(0 0 0 / 51%),
+    -10px -10px 10px 5px rgb(108 108 108 / 20%),
+    inset 15px 15px 10px 5px rgb(0 0 0 / 51%),
+    inset -10px -10px 10px 5px rgb(108 108 108 / 20%);
+}
+
+.icon{
+    width: 100%;
+    text-align: center;
+    margin-top: 30%;
+}
+
+.icon::before{
+    font-size: 170px;
+}
+
+@medis (max-width:1200px){
+    .container{
+        max-width: 100%;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        overflow-y: scroll;
+        height: 100%;
+    }
+
+    .box{
+        width: 65%;
+        margin-bottom: 35px;
+        margin-top: 35px;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+.logo-description{
+    margin-top: 5%;
+    text-align: center;
+}
+
+.logo-version{
+    font-size: 20px;
+    padding-bottom: 40px;
+    display: block;
+}
+
+.logo-title{
+    position: relative;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 65px;
+}
+
+.logo-title::before, .logo-title::after{
+    content: "";
+    position: absolute;
+    height: 3%;
+    width: 100%;
+    background-color: #fff;
+    left: 0;
+    bottom: 0;
+}
+
+.windows:hover .icon{
+    text-shadow: 0 0 50px #006cff,
+                0 0 50px #006cff,
+                0 0 50px #006cff,
+                0 0 50px #006cff,
+                0 0 50px #006cff,
+                0 0 50px #006cff;
+}
+
+.windows:hover .logo-title::after{
+    background-color: #00b6ff;
+    animation: moveBorder 2s infinite linear;
+}
+
+.apple:hover .icon{
+    text-shadow: 0 0 50px #a7da03,
+                0 0 50px #a7da03,
+                0 0 50px #a7da03,
+                0 0 50px #a7da03,
+                0 0 50px #a7da03,
+                0 0 50px #a7da03;
+}
+
+.apple:hover .logo-title::after{
+    background-color: #a7da03;
+    animation: moveBorder 2s infinite linear;
+}
+
+.ubuntu:hover .icon{
+    text-shadow: 0 0 50px #eb00ff,
+                0 0 50px #eb00ff,
+                0 0 50px #eb00ff,
+                0 0 50px #eb00ff,
+                0 0 50px #eb00ff,
+                0 0 50px #eb00ff;
+}
+
+.ubuntu:hover .logo-title::after{
+    background-color: #eb00ff;
+    animation: moveBorder 2s infinite linear;
+}
+
+@keyframes moveBorder{
+    0%{
+        transform: scaleX(0);
+        transform-origin: left;
+    }
+    50%{
+        transform: scaleX(1);
+        transform-origin: left;
+    }
+    50.1%{
+        transform: scaleX(1);
+        transform-origin: right;
+    }
+    100%{
+        transform: scaleX(0);
+        transform-origin: right;
+    }
+}

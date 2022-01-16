@@ -1,0 +1,244 @@
+body,h1,h2,h3,h4,h5,h6,p{
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Header Section */
+
+.jon-header{
+    background-color: #fff;  
+}
+
+.jon-header,a{
+    color: #111;
+    font-size: 19px;
+}
+
+.jon-header,a:hover{
+    color: rgb(255, 102, 0);
+}
+
+
+.jon-header .navbar-brand{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.navbar-brand{
+    color: rgb(255, 0, 149);
+}
+
+.navbar-brand span i{
+    color: rgb(38, 255, 0);
+    font-size: 45px;
+}
+
+.jon-menu .nav-link{
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+
+
+/* Slider Section */
+.slider-section{
+    background: url('../img-2/gym.png') no-repeat center center/cover;
+    padding: 250px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.slider-section::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.219);
+    z-index: -1;
+}
+
+.slider-caption h4{
+    background-color: rgba(252, 138, 138, 0.616);
+    color: rgb(166, 255, 0);
+    padding: 8px 10px;
+    border-radius: 9px;
+    font-size: 33px;
+    max-width: 360px;
+    margin: auto;
+    font-weight: 500;
+}
+
+.slider-caption p{
+    display: inline-block;
+    background-color: rgba(253, 119, 197, 0.568);
+    color: rgb(166, 255, 0);
+    padding: 8px 10px;
+    border-radius: 9px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+/* About Section */
+.about-section{
+    background-color: #f1f4fd;
+}
+
+.about-text-left{
+    margin-top: 40px;
+}
+
+.about-text-left .lead{
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+}
+
+/* Team Section */
+.our-team-section h2{
+    padding-top: 50px;
+    font-size: 3rem;
+}
+
+/* Feauter Section */
+.feauter-item{
+    height: 300px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.2);
+}
+
+.left-img-sec{
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+
+.left-test-sec{
+    width: 60%;
+    padding: 20px;
+}
+
+.left-img-sec img{
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    left: -15px;
+}
+
+.left-test-sec h4{
+    font-size: 2rem;
+}
+
+.left-test-sec p{
+    font-size: 1.1rem;
+    line-height: 2rem;
+}
+
+
+/* Portfolio Section */
+.portfolio-section .mt-4{
+    font-size: 2.7rem;
+}
+
+.bgc{
+    background-color: #f1f4fd;
+}
+
+.portfolio-item a{
+    position: relative;
+    display: block;
+}
+
+.portfolio-item a::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(245, 151, 240, 0.596);
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+
+.portfolio-item:hover a::after{
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Testimonal Section */
+.sayed{
+    background-color: #f0f2fa;
+}
+
+.author-info{
+    width: 250px;
+    margin: auto;
+}
+
+.author-info img{
+    width: 90px;
+    margin-right: 20px;
+}
+
+.user-details{
+    text-align: left;
+    position: relative;
+    top: 13px;
+}
+
+.testimonial-item span i{
+    font-size: 4rem;
+    color: #cccccc;
+    opacity: 0.7;
+}
+
+/* Client About Section */
+.about-item{
+    margin-top: 80px;
+}
+
+.about-item .card img{
+    width: 120px;
+    height: 120px;
+    margin-top: -70px;
+    margin-left: 30%;
+}
+
+.card-body .card-title{
+    font-size: 2.3rem;
+}
+
+.card-body .card-subtitle{
+    font-size: 1.5rem;
+}
+
+.card-body .card-text{
+    font-size: 1.1rem;
+}
+
+.card-body .btn{
+    color: black;
+    font-size: 1.3rem;
+}
+
+.about-section .aka{
+    font-size: 3rem;
+}
+
+.about-section .lead{
+    font-size: 1.4rem;
+}
+
+
+/* Contact Section */
+.contact-form-div .card{
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.2);
+    padding: 40px;
+}
+
+.contact-section .btn:hover{
+    color: white;
+}

@@ -1,0 +1,167 @@
+/* CSS Part-11  Part 1- Details About CSS Display Property */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    display: inline-block;
+    background-color: orange;
+}
+
+p{
+    background-color: rgb(255, 0, 0);
+}
+
+b{
+    background-color: rgb(194, 103, 61);
+}
+
+i{
+    background-color: rgb(248, 219, 123);
+}
+
+u{
+    background-color: rgb(255, 230, 0);
+}
+
+/* a{
+    background-color: rgb(185, 151, 117);
+} */
+
+em{
+    background-color: rgb(194, 191, 3);
+}
+
+/* li{
+    background-color: rgb(238, 255, 0);
+} */
+
+ol{
+    display: inline-block;
+    background-color: rgb(166, 255, 0);
+}
+
+td{
+    background-color: rgb(38, 255, 0);
+}
+
+th{
+    background-color: rgb(151, 248, 192);
+}
+
+tr{
+    background-color: rgb(0, 255, 136);
+}
+
+/* ul{
+    background-color: rgb(0, 238, 255);
+} */
+
+img{
+    background-color: rgb(0, 153, 255);
+}
+
+/* div{
+    background-color: rgb(17, 0, 255);
+} */
+
+sub{
+    background-color: rgb(170, 175, 248);
+}
+
+sup{
+    background-color: rgb(174, 0, 255);
+}
+
+span{
+    background-color: rgb(204, 0, 255);
+}
+
+small{
+    background-color: rgb(255, 0, 255);
+}
+
+thead{
+    background-color: rgb(255, 0, 170);
+}
+
+.content{
+    background-color: rgb(255, 0, 55);
+}
+
+tfoot{
+    background-color: rgb(0, 255, 128);
+}
+
+table{
+    background-color: rgb(77, 103, 107);
+}
+
+.bold-text{
+    background-color: rgb(136, 132, 125);
+}
+
+strong{
+    background-color: rgb(211, 195, 166);
+}
+
+section{
+    background-color: rgb(126, 155, 108);
+}
+
+caption{
+    background-color: rgb(175, 220, 247);
+}
+
+font{
+    background-color: rgb(91, 139, 85);
+}
+
+strike{
+    background-color: rgb(156, 144, 71);
+}
+
+.main-menu{
+    text-align: left;
+    margin-left: 130px;
+    padding: 55px;
+}
+
+.main-menu li{
+    display: inline-block;
+}
+
+.main-menu li a{
+    display: inline-block;
+    color: whitesmoke;
+    background-color: rgb(168, 148, 168);
+    font-size: 1.5rem;
+    padding: 0 25px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin: 7px;
+    border: 3px solid rgb(58, 255, 8);
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.main-menu li a:hover{
+    background-color: rgb(247, 93, 37);
+}
+
+.main-menu-1{
+    text-align: right;
+    margin-right: 60px;
+    padding: -50px;
+}
+
+.container{
+    text-align: center;
+}
+
+.container img{
+    height: 350px;
+    width: 250px;
+}

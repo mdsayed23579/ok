@@ -1,0 +1,23 @@
+/* CSS Part-8 --- part-1 Quiz, Question & andwer with Bootstrap all class for Box-type */
+
+body{
+    background-color: rgb(159, 163, 163);
+}
+
+.test-div{
+    display: inline-block;
+    /* height: 200px;
+    width: 200px; */
+    background-color: rgb(190, 248, 0);
+}
+
+img{
+    height: 250px;
+    width: 320px;
+}
+
+.container-div{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(232, 100, 255);
+}

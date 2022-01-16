@@ -1,0 +1,36 @@
+/* CSS Part-2 CSS link add */
+
+h1{
+    font-size: 90px;
+    color: orangered;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.container{
+    font-size: 80px;
+    color: rgb(255, 0, 234);
+    background-color: yellowgreen;
+    text-align: center;
+}
+
+h3{
+    font-size: 50px;
+    color: rgb(32, 253, 32);
+    background-color: indianred;
+    text-align: center;
+}
+
+p{
+    font-size: 50px;
+    color: rgb(156, 37, 37);
+    background-color: khaki;
+    text-align: center;
+}
+
+div{
+    font-size: 50px;
+    color: rgb(0, 110, 255);
+    background-color: lightpink;
+    text-align: center;
+}

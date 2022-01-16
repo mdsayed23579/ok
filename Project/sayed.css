@@ -1,0 +1,325 @@
+/* tut 22 Full website. */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fullwebsite{
+    width: 1025px;
+    margin: 25px auto;
+    border: 1px solid rgb(255, 0, 0);
+}
+
+/* This is Menu and Logo Section. */
+.menu-logo{
+    margin: auto;
+    background-color: rgb(190, 184, 184);
+    height: 75px;
+}
+
+.menu{
+    width: 70%;
+    height: 100px;
+    float: right;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li{
+   float: left;   
+}
+
+ul li a{
+    display: inline-block;
+    color: white;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+ul li a:hover{
+    background-color: tomato;
+    border: 3px solid rgb(21, 255, 0);
+    border-radius: 20px;
+    padding: 5px 20px;
+    margin: 10px;
+}
+
+.logo{
+    width: 30%; 
+    height: 100px;
+    float: left;
+}
+
+.logo img{
+    height: 60px;
+    width: 60px;
+    padding: 8px 50px;
+}
+
+/* This is Banner Section. */
+.banner{
+    background-image: url('../img/cyber.jpg');
+    background-size: cover;
+    background-position: top center; 
+    background-repeat: no-repeat;
+    padding: 160px 0;
+}
+
+.banner h1{
+    color: white;
+    font-size: 3.5rem;
+    padding-left: 120px;
+    /* display: inline-block; */
+    padding-top: 325px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+/* This is Service Section. */
+.svc{
+    display: flex;
+    background-color: rgb(231, 231, 231);
+}
+
+.svc h2{
+    display: inline-block;
+    font-size: 3rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 380px;
+    color: tomato; 
+    font-family: 'Noto Sans TC', sans-serif; 
+}
+
+.img1{
+  width: 100%;
+  height: 290px;
+  display: inline-block;
+  background-color: rgb(231, 231, 231);
+}
+
+.img1 img{
+    width: 320px;
+    height: auto;
+    float: left;
+    margin: -35px 5px;
+} 
+
+.img1 h1{
+    display: inline-block;
+    margin: 15px -5px;
+    font-size: 2rem;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.img1 p{
+    font-size: 1.2rem;
+    margin: 5px 5px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.img2{
+    background-color: rgb(231, 231, 231);
+    width: 100%;
+    height: 315px;
+    display: inline-block;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.img2 img{
+    width: 335px;
+    height: auto;
+    float: right;
+    margin: 33px 5px;
+}
+
+.img2 h2{
+    display: inline-block;
+    font-size: 2rem;
+    margin: 70px 35px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.img2 p{
+    margin: -60px 30px;
+    font-size: 1.2rem;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.img3{
+    background-color: rgb(231, 231, 231);
+    width: 100%;
+    height: 290px;
+    display: inline-block;
+}
+
+.img3 img{
+    width: 390px;
+    float: left;
+    margin: 15px 3px;
+    height: auto;
+}
+
+.img3 h2{
+    display: inline-block;
+    margin: 45px 5px;
+    font-size: 2rem;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.img3 p{
+    margin: -39px 25px;
+    font-size: 1.2rem;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+/* This is Client Section. */
+
+.color{
+    padding: 10px;
+    background-color: rgb(231, 231, 231);
+}
+
+.cli h1{
+    font-size: 3rem;
+    text-align: center;
+    margin: 50px;
+    color: tomato;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+#client{
+    width: 90%; 
+    margin: 30px 50px;
+    display: flex;
+}
+
+#client .jon{
+    border: 1px solid rgb(221, 173, 253);
+    margin: auto;
+    display: block;
+    border-radius: 30px;
+    background-color: rgb(226, 215, 215);
+}
+
+#client .jon img{
+    height: 250px;
+    width: 175px;
+    margin: 0 25px;
+}
+
+#client .jon h2{
+    text-align: center;
+    padding: 5px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+#client .jon p{
+    text-align: center;
+    padding: 5px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+#client .smith{
+    border: 1px solid rgb(221, 173, 253);
+    margin: auto;
+    display: block;
+    border-radius: 30px;
+    background-color: rgb(226, 215, 215);
+}
+
+#client .smith img{
+    height: 250px;
+    width: 175px;
+    margin: 0 25px;
+}
+
+#client .smith h2{
+    text-align: center;
+    padding: 5px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+#client .smith p{
+    text-align: center;
+    padding: 5px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+#client .abet{
+    border: 1px solid rgb(221, 173, 253);
+    margin: auto;
+    display: block;
+    border-radius: 30px;
+    background-color: rgb(226, 215, 215);
+}
+
+#client .abet img{
+    height: 250px;
+    width: 175px;
+    margin: 0 25px;
+}
+
+#client .abet h2{
+    text-align: center;
+    padding: 5px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+#client .abet p{
+    text-align: center;
+    padding: 5px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+/* This is Contact Section. */
+.container{
+    padding: 10px;
+    background-color: rgb(255, 236, 236);
+}
+
+.container h1{
+    text-align: center;
+    margin: 35px;
+}
+
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 465px;
+    padding: 5px;
+    border: 2px solid rgb(255, 166, 33);
+    margin: 10px auto;
+    border-radius: 13px;
+    font-size: 1.5rem;
+}
+
+.container button{
+    display: block;
+    width: 47%;
+    padding: 5px;
+    margin: 15px auto;
+    font-size: 1.9rem;
+    border: 2px solid rgb(94, 255, 0);
+    border-radius: 13px;
+    color: white;
+    background-color: rgb(186, 86, 253);
+} 
+
+.container button:hover{
+    background-color: tomato;
+}
+
+/* This is Footer Section */
+
+.footer{
+    font-size: 1.4rem;
+    text-align: center;
+    color: white;
+    background-color: rgb(38, 74, 88);
+    padding: 10px
+}

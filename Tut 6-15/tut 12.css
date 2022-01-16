@@ -1,0 +1,59 @@
+/* CSS Part-7 CSS Height, Width, Border-radius, Bos-shadow full details */
+
+body{
+    background-color: rgb(183, 255, 243);
+}
+
+.box1{
+    /* display: inline-block; */
+    background-color: rgb(255, 71, 4);
+    height: 200px;
+    width: 200px;
+    /* border-radius: 50%; */
+    border-radius: 25px 60px 35px 110px;
+    /* border-radius: 0 50px; */
+    margin-top: 50px;
+    margin-left: 35%;
+    padding: 20px;
+    box-shadow: 2px 4px 35px rgb(187, 255, 0);
+}
+
+.box2{
+    height: 150px;
+    width: 300px;
+    background-color: green;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 35%;
+    padding: 20px;
+    box-shadow: 2px 4px 35px rgb(0, 0, 0);
+}
+
+.box3{  
+    background-color: red;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.andda{
+    height: 100px;
+    width: 250px;
+    background-color: rgb(252, 235, 205);
+    border: 5px solid rgb(243, 156, 156);
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 35%;
+    padding: 20px;
+    border-radius: 50%;
+    box-shadow: 2px 4px 35px rgb(255, 136, 136);
+}
+
+.kusum{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgba(245, 63, 17, 0.712);
+    display: inline-block;
+}

@@ -1,0 +1,88 @@
+/* Day-32, Part-2-----Display Flex Property---Display flex practice with live example */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wapping{
+    max-width: 1200px;
+    margin: auto;
+    background-color: #fafafa;
+}
+
+.menu{
+    background-color: rgb(250, 134, 134);
+}
+
+.menu ul{
+    text-align: center;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.menu ul li{
+    flex: 1;
+}
+
+.menu ul li a{
+    padding: 10px 45px;
+    color: white;
+    display: block;
+    border: 2px solid yellowgreen;
+}
+
+.row{
+    display: flex;
+    flex: 1;
+}
+
+.flex-item{
+    border: 2px solid orangered;
+}
+
+.row-2{
+    display: flex;
+    margin-top: 25px;
+}
+
+.row-2-item{
+    border: 2px solid orange;
+}
+
+.bigger-div{
+    flex-basis: 70%;
+}
+
+.row-3{
+    display: flex;
+    margin-top: 15px;
+}
+
+.row-3-item{
+    border: 2px solid orchid;
+    flex: 1 0 0%;
+}
+
+.row-3-bigger{
+    flex-grow: 3;
+}
+
+.container{
+    width: 500px;
+    height: 500px;
+    border: 2px solid rgb(0, 255, 0);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-center{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    background-color: red;
+    color: white;
+}
+

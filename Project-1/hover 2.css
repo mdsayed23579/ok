@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+ul{
+    position: relative;
+    display: flex;
+}
+
+ul li{
+    position: relative;
+    list-style: none;
+    width: 120px;
+    height: 120px;
+    margin: 0 70px;
+    transition: all 0.5s ease-in-out;
+    
+}
+
+ul li span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    font-size: 50px !important;
+    color: white;
+    transition: all 0.5s ease-in-out;
+    background-color: transparent !important;
+}
+
+.boxSkew{
+    transform: rotate(-30deg) skew(25deg);
+}
+
+.boxExpand span:nth-child(5){ 
+    transform: translate(80px, -80px);
+    opacity: 1;
+}
+
+.boxExpand span:nth-child(4){
+    opacity: 0.8;
+    transform: translate(60px, -60px);
+}
+
+.boxExpand span:nth-child(3){
+    opacity: 0.6;
+    transform: translate(40px, -40px);
+}
+
+.boxExpand span:nth-child(2){
+    opacity: 0.4;
+    transform: translate(20px, -20px);
+}
+
+.boxExpand span:nth-child(1){
+    opacity: 0.2;
+    transform: translate(0px, 0px);
+}
+
+.fa-facebook{
+    text-shadow: 0 0 20px #b3ff00,
+    0 0 40px #b3ff00,
+    0 0 60px #b3ff00,
+    0 0 80px #b3ff00,
+    0 0 100px #b3ff00,
+    0 0 120px #b3ff00,
+    0 0 140px #b3ff00,
+    0 0 160px #b3ff00;
+}
+
+.fa-instagram{
+    text-shadow: 0 0 20px #fb00ff,
+    0 0 40px #fb00ff,
+    0 0 60px #fb00ff,
+    0 0 80px #fb00ff,
+    0 0 100px #fb00ff,
+    0 0 120px #fb00ff,
+    0 0 140px #fb00ff,
+    0 0 160px #fb00ff;
+}
+
+.fa-linkedin{
+    text-shadow: 0 0 20px #50fd0ce3,
+    0 0 40px #50fd0ce3,
+    0 0 60px #50fd0ce3,
+    0 0 80px #50fd0ce3,
+    0 0 100px #50fd0ce3,
+    0 0 120px #50fd0ce3,
+    0 0 140px #50fd0ce3,
+    0 0 160px #50fd0ce3;
+}
+
+.fa-google-plus{
+    text-shadow: 0 0 20px #cd0606f2,
+    0 0 40px #cd0606f2,
+    0 0 60px #cd0606f2,
+    0 0 80px #cd0606f2,
+    0 0 100px #cd0606f2,
+    0 0 120px #cd0606f2,
+    0 0 140px #cd0606f2,
+    0 0 160px #cd0606f2;
+}
+
+.fa-twitter{
+    text-shadow: 0 0 20px #0066ff,
+    0 0 40px #0066ff,
+    0 0 60px #0066ff,
+    0 0 80px #0066ff,
+    0 0 100px #0066ff,
+    0 0 120px #0066ff,
+    0 0 140px #0066ff,
+    0 0 160px #0066ff;
+}
+
+li:nth-child(1) span{
+    box-shadow: 0 0 0.1em 0 #b3ff00;
+}
+
+li:nth-child(2) span{
+    box-shadow: 0 0 0.1em 0 #fb00ff;
+}
+
+li:nth-child(3) span{
+    box-shadow: 0 0 0.1em 0 #50fd0ce3;
+}
+
+li:nth-child(4) span{
+    box-shadow: 0 0 0.1em 0 #cd0606f2;
+}
+
+li:nth-child(5) span{
+    box-shadow: 0 0 0.1em 0 #0066ff;
+}
+
+
+/* Hover Effect */
+.boxSkew:nth-child(1) span{
+    box-shadow: -1px 1px 5px 4px #b3ff00 !important;
+    background-color: #07adf80f !important;
+}
+
+.boxSkew:nth-child(2) span{
+    box-shadow: -1px 1px 5px 4px #fb00ff !important;
+    background-color: #fb00ff14 !important;
+}
+
+.boxSkew:nth-child(3) span{
+    box-shadow: -1px 1px 5px 4px #50fd0ce3 !important;
+    background-color: #0089ff12 !important;
+}
+
+.boxSkew:nth-child(4) span{
+    box-shadow: -1px 1px 5px 4px #cd0606f2 !important;
+    background-color: #cd06061c !important;
+}
+
+.boxSkew:nth-child(5) span{
+    box-shadow: -1px 1px 5px 4px #0066ff !important;
+    background-color: #004eff17 !important;
+}
